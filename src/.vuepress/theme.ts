@@ -1,23 +1,20 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import { enNavbar } from "./navbar/index.js";
+import { enSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
-  author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
-  },
+  hostname: "https://stackseekers.github.io/",
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/stackseekers.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "stackseekers/stackseekers.github.io",
 
   docsDir: "src",
+
+  favicon:'/assets/stackseekers.png',
 
   locales: {
     "/": {
@@ -36,25 +33,25 @@ export default hopeTheme({
       },
     },
 
-    /**
-     * Chinese locale config
-     */
-    "/zh/": {
-      // navbar
-      navbar: zhNavbar,
+    // /**
+    //  * Chinese locale config
+    //  */
+    // "/zh/": {
+    //   // navbar
+    //   navbar: zhNavbar,
 
-      // sidebar
-      sidebar: zhSidebar,
+    //   // sidebar
+    //   sidebar: zhSidebar,
 
-      footer: "默认页脚",
+    //   footer: "默认页脚",
 
-      displayFooter: true,
+    //   displayFooter: true,
 
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
+    //   // page meta
+    //   metaLocales: {
+    //     editLink: "在 GitHub 上编辑此页",
+    //   },
+    // },
   },
 
   encrypt: {
