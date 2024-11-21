@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Stack seekers
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /assets/stackseekers.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
