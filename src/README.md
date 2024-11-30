@@ -7,16 +7,18 @@ bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Stack seekers
-tagline: You can place the description of the project here.
+heroText: Turn your Ideas Into Reality
+tagline: Experienced full-stack developer specializing in scalable web, mobile, and software solutions. Let’s bring your vision to life.
 actions:
-  - text: My projects
+  - text: Hire Now
     icon: lightbulb
-    link: ./demo/
+    link: mailto:jiwan.cse@gmail.com
     type: primary
 
-  - text: Docs
+  - text: Schedule Meeting
+    icon: calender-days
     link: ./guide/
+    type: Secondary
 
 highlights:
   - header: Easy to install
