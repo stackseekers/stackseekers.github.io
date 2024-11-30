@@ -72,3 +72,90 @@ cd stackseekers
 npm install
 npm run docs:dev
 ```
+
+## Modify to make your own
+
+Developer Portfolio Website
+
+<ul>
+<li>Code Tree
+
+```
+├── README.md
+├── package.json
+├── pnpm-lock.yaml
+├── src
+│   ├── README.md
+│   ├── demo
+│   │   ├── README.md
+│   │   ├── disable.md
+│   │   ├── encrypt.md
+│   │   ├── layout.md
+│   │   ├── markdown.md
+│   │   └── page.md
+│   ├── guide
+│   │   ├── README.md
+│   │   ├── bar
+│   │   │   ├── README.md
+│   │   │   └── baz.md
+│   │   └── foo
+│   │       ├── README.md
+│   │       └── ray.md
+│   ├── portfolio.md
+│   └── zh
+│       ├── README.md
+│       ├── demo
+│       │   ├── README.md
+│       │   ├── disable.md
+│       │   ├── encrypt.md
+│       │   ├── layout.md
+│       │   ├── markdown.md
+│       │   └── page.md
+│       ├── guide
+│       │   ├── README.md
+│       │   ├── bar
+│       │   │   ├── README.md
+│       │   │   └── baz.md
+│       │   └── foo
+│       │       ├── README.md
+│       │       └── ray.md
+│       └── portfolio.md
+└── tsconfig.json
+```
+
+</li>
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Theme</li>
+<li>Light mode</li>
+<li>Dark mode</li>
+<li>Primevue Setup</li>
+<li>Custome Css</li>
+<li>Image path</li>
+</ul>
+
+Website Content Structure
+
+1. Hero Section (First Impression)
+
+    > Button: “Hire Me for Your Next Project”
+
+    > Button: “Get a Free Consultation”
+
+2. Services Offered
+    > Button: “Discuss Your Project”
+
+3. Portfolio
+
+4. Testimonials
+
+5. Journey
+
+6. Blog Section (Optional)
+
+7. Contact Me
+    > Button: “Send a Message”
+    
+    > Button: “Get a Free Quote”
+
+8. Footer Section
