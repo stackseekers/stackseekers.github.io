@@ -224,7 +224,6 @@ With a demonstrated history of success in the industry, I bring a comprehensive 
   </div>
 </div>
 
-
 <div class="pt-8 surface-100 border-round-md text-900">
   <div class="text-center">
     <div class="text-6xl font-bold">Contact Me</div>

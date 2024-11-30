@@ -78,7 +78,16 @@ npm run docs:dev
 Developer Portfolio Website
 
 <ul>
-<li>Code Tree
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Theme</li>
+<li>Image path</li>
+<li>Light mode</li>
+<li>Dark mode</li>
+<li>Primevue Setup</li>
+<li>Custome Css</li>
+<li>Back to top of the page</li>
+<li>Code Structure
 
 ```
 ├── README.md
@@ -124,14 +133,6 @@ Developer Portfolio Website
 ```
 
 </li>
-<li>Navbar</li>
-<li>Sidebar</li>
-<li>Theme</li>
-<li>Light mode</li>
-<li>Dark mode</li>
-<li>Primevue Setup</li>
-<li>Custome Css</li>
-<li>Image path</li>
 </ul>
 
 Website Content Structure
