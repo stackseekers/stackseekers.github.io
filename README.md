@@ -79,11 +79,15 @@ Developer Portfolio Website
 
 <ul>
 <li>Navbar</li>
-<li>Sidebar</li>
+<li>Dropdown Menu</li>
+<li>Collapsible Sidebar</li>
+<li>Giscus: A comments system powered by GitHub Discussions</li>
 <li>Theme</li>
+<li>Responsive - Mobile, Table, Desktop, Large Desktop</li>
 <li>Image path</li>
 <li>Light mode</li>
 <li>Dark mode</li>
+<li>Internationalization</li>
 <li>Primevue Setup</li>
 <li>Custome Css</li>
 <li>Back to top of the page</li>
