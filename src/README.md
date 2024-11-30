@@ -1,7 +1,7 @@
 ---
 home: true
-icon: home
-title: Stack seekers
+icon: pi pi-home
+title: Home
 heroImage: /assets/stackseekers.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
@@ -11,313 +11,271 @@ heroText: Turn your Ideas Into Reality
 tagline: Experienced full-stack developer specializing in scalable web, mobile, and software solutions. Let’s bring your vision to life.
 actions:
   - text: Hire Now
-    icon: lightbulb
+    icon: pi pi-briefcase
     link: mailto:jiwan.cse@gmail.com
     type: primary
 
   - text: Schedule Meeting
-    icon: calender-days
-    link: ./guide/
+    icon: pi pi-calendar-clock
+    link: ./meeting/
     type: Secondary
 
 highlights:
-  - header: Easy to install
+  - header: What I Can Do for You
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     highlights:
-      - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
-      - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
+      - title: "Web Development: Full-stack development using <code>React.Js</code>, <code>Vue.Js</code>, and <code>Node.Js</code>"
+      - title: "Mobile App Development: Scalable and intuitive applications using <code>React Native</code>"
+      - title: "Backend Development: Secure APIs and databases (<code>MongoDB</code>, <code>SQL</code>)"
+      - title: "Project Rescue: Fix and optimize underperforming codebases"
+      - title: "Custom Solutions: Tailored software for unique requirements"
 
-  - header: Add things you want in markdown
-    description: We extended the standard commonMark specification and added tons of new features for you.
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+  - header: 
+    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
     features:
-      - title: Links Check
-        icon: clipboard-check
-        details: Check markdown links
-        link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
+      - title: Discuss Your Project
+        icon: pi pi-calendar-clock
+        link: ./meeting/
+        type: Secondary
 
-      - title: Hint box
-        icon: box-archive
-        details: Decorate Markdown content with styles
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/hint.html
+  # - header: Add things you want in markdown
+  #   description: We extended the standard commonMark specification and added tons of new features for you.
+  #   image: /assets/image/markdown.svg
+  #   bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+  #   bgImageStyle:
+  #     background-repeat: repeat
+  #     background-size: initial
+  #   features:
+  #     - title: Links Check
+  #       icon: clipboard-check
+  #       details: Check markdown links
+  #       link: https://theme-hope.vuejs.press/guide/markdown/others.html#link-check
 
-      - title: GFM alerts
-        icon: bell
-        details: GFM alert box
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/alert.html
+  #     - title: Hint box
+  #       icon: box-archive
+  #       details: Decorate Markdown content with styles
+  #       link: https://theme-hope.vuejs.press/guide/markdown/stylize/hint.html
 
-      - title: Tabs
-        icon: table-columns
-        details: Group similar content with tabs and switch them together
-        link: https://theme-hope.vuejs.press/guide/markdown/content/tabs.html
+  #     - title: GFM alerts
+  #       icon: bell
+  #       details: GFM alert box
+  #       link: https://theme-hope.vuejs.press/guide/markdown/stylize/alert.html
 
-      - title: Code Tabs
-        icon: code
-        details: Group similar codes with tabs
-        link: https://theme-hope.vuejs.press/guide/markdown/code/code-tabs.html
-
-      - title: Custom Align
-        icon: align-center
-        details: Let you decide to align paragraphs in the way you like
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/align.html
-
-      - title: Attrs
-        icon: code
-        details: Allow you to add attributes for Markdown content
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/attrs.html
-
-      - title: Superscript and subscript
-        icon: superscript
-        details: Inserting superscript and subscript
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/sup-sub.html
-
-      - title: Footnote
-        icon: quote-left
-        details: Your Markdown now support footnotes
-        link: https://theme-hope.vuejs.press/guide/markdown/content/footnote.html
-
-      - title: Mark
-        icon: highlighter
-        details: Mark and highlight contents
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/mark.html
-
-      - title: Spoiler
-        icon: eraser
-        details: Mark spoiler contents
-        link: https://theme-hope.vuejs.press/guide/markdown/stylize/spoiler.html
-
-      - title: Tasklist
-        icon: square-check
-        details: Use tasklist in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/tasklist.html
-
-      - title: Image syntax
-        icon: image
-        details: improve syntax to specify size and color scheme
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/image.html
-
-      - title: Component Support
-        icon: puzzle-piece
-        details: Easily insert components in Markdown
-        link: https://theme-hope.vuejs.press/guide/component/grammar.html
-
-      - title: Components
-        icon: puzzle-piece
-        details: Common components out fo box
-        link: https://theme-hope.vuejs.press/guide/component/built-in.html
-
-      - title: Chart Support
-        icon: chart-simple
-        details: Display charts in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/chartjs.html
-
-      - title: Flowchart Support
-        icon: route
-        details: Create your flowchart in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/flowchart.html
-
-      - title: Mermaid Support
-        icon: chart-pie
-        details: Add mermaid diagram in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/mermaid.html
-
-      - title: Plantuml Support
-        icon: diagram-project
-        details: Add plantuml in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/chart/plantuml.html
-
-      - title: Tex Support
-        icon: square-root-variable
-        details: Markdown now have Tex Support so you can write your formula
-        link: https://theme-hope.vuejs.press/guide/markdown/grammar/tex.html
-
-      - title: Include snippet Support
-        icon: fab fa-markdown
-        details: split your docs with different parts and import them in Markdown
-        link: https://theme-hope.vuejs.press/guide/markdown/content/include.html
-
-      - title: Playground Support
-        icon: code
-        details: You can add playground in Markdown files
-        link: https://theme-hope.vuejs.press/guide/markdown/code/playground.html
-
-      - title: Kotlin playground Support
-        icon: fab fa-kickstarter
-        details: Reactive kotlin playground
-        link: https://theme-hope.vuejs.press/guide/markdown/code/kotlin-playground.html
-
-      - title: Vue playground Support
-        icon: fab fa-vuejs
-        details: Show living vue component in playground
-        link: https://theme-hope.vuejs.press/guide/markdown/code/vue-playground.html
-
-      - title: Sandpack playground Support
-        icon: code
-        details: A live coding environment driven by Sandpack.
-        link: https://theme-hope.vuejs.press/guide/markdown/code/sandpack.html
-
-      - title: Code Demo Support
-        icon: laptop-code
-        details: You can insert code demo easily
-        link: https://theme-hope.vuejs.press/guide/markdown/code/demo.html
-
-      - title: Presentation Support
-        icon: person-chalkboard
-        details: Insert presentation in Markdown files via Reveal.js
-        link: https://theme-hope.vuejs.press/guide/markdown/content/revealjs.html
-
-  - header: Customizable UI
-    description: Customizable outlook with full a11y support.
-    image: /assets/image/ui.svg
+  - header: My Work Speaks for Itself
+    description: Explore Projects That Showcase My Expertise.
+    image: /assets/image/projects.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     highlights:
-      - title: Dark Mode
-        icon: circle-half-stroke
-        details: Switch between light and dark modes freely
-        link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
+      - title: View All Projects
+        details: See my work
+        link: ./projects/
 
-      - title: Customizable Theme Color
-        icon: palette
-        details: Set theme color with the brand color and even a picker
-        link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
+  # - header: Improved layouts
+  #   description: An awesome responsive layout
+  #   image: /assets/image/layout.svg
+  #   bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+  #   highlights:
+  #     - title: Navbar
+  #       icon: window-maximize
+  #       details: Fully customizable navbar with improved mobile support
+  #       link: https://theme-hope.vuejs.press/guide/layout/navbar.html
 
-      - title: More
-        icon: ellipsis
-        details: RTL layout, print support, fullscreen button, etc.
-        link: https://theme-hope.vuejs.press/guide/interface/others.html
+  #     - title: Sidebar
+  #       icon: fas fa-window-maximize fa-rotate-270
+  #       details: Generate sidebar based on page headings and file structure
+  #       link: https://theme-hope.vuejs.press/guide/layout/sidebar.html
 
-  - header: Improved layouts
-    description: An awesome responsive layout
-    image: /assets/image/layout.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: Navbar
-        icon: window-maximize
-        details: Fully customizable navbar with improved mobile support
-        link: https://theme-hope.vuejs.press/guide/layout/navbar.html
+  #     - title: Slide Page
+  #       icon: person-chalkboard
+  #       details: Adding slide pages to display things you like
+  #       link: https://theme-hope.vuejs.press/guide/layout/slides.html
 
-      - title: Sidebar
-        icon: fas fa-window-maximize fa-rotate-270
-        details: Generate sidebar based on page headings and file structure
-        link: https://theme-hope.vuejs.press/guide/layout/sidebar.html
+  #     - title: Other Layout Improvement
+  #       icon: object-group
+  #       details: Improved page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
+  #       link: https://theme-hope.vuejs.press/guide/layout/
 
-      - title: Slide Page
-        icon: person-chalkboard
-        details: Adding slide pages to display things you like
-        link: https://theme-hope.vuejs.press/guide/layout/slides.html
+  # - header: What My Clients Say
+  #   description: I treat every client as a strategic partner. Here’s what they have to say about working with Jiwan Ghosal.
+  #   image: /assets/image/features.svg
+  #   bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+  #   features:
+  #     - title: Harris Malik 
+  #       icon: https://media.licdn.com/dms/image/v2/D5603AQG8ooyo97JCoA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1682841547783?e=1738195200&v=beta&t=JARoSOLbmEvkdoSPUN0KudV6as1XSLEzxngLUDb9S6c
+  #       details: Jiwan is one of the most valuable people I have ever met. He is smart, professional, and never fails to surprise us with creative solutions to difficult problems. Jiwan's personality and skills would be a great asset to any company. Highly recommended.
+  #       link: https://www.linkedin.com/in/harrismalik04/
 
-      - title: Other Layout Improvement
-        icon: object-group
-        details: Improved page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
-        link: https://theme-hope.vuejs.press/guide/layout/
+  #     - title: Jurgen Sweere
+  #       icon: https://media.licdn.com/dms/image/v2/C5603AQGLWlLKfqFZgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516235161685?e=1738195200&v=beta&t=UF337AJukgtr4CHB2h-M-Azrt31Y24z3Q2lRBTiIk_c
+  #       details: Jiwan never stopped amazing me. He brings a lot of front-end knowledge to the table and is able to quickly learn anything new. Jiwan is a great colleague to have!
+  #       link: https://www.linkedin.com/in/jurgensweere
 
-  - header: New features
-    image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
-    features:
-      - title: Catalog Page
-        icon: network-wired
-        details: Auto generating catalog page and out of box catalog component
-        link: https://theme-hope.vuejs.press/guide/feature/catalog.html
+  #     - title: Shayam Kumar
+  #       icon: https://media.licdn.com/dms/image/v2/D5603AQHZpSlK7j89uA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1698672442801?e=1738195200&v=beta&t=lXm4yDQlyLnGzUFtfzqjDGEgBzttasSc03uUb5s0ZVc
+  #       details: I always found Jiwan to be a very dependable and hardworking. Many times he went above and beyond to meet the product requirements; it might be either working overtime to release the project on time or working with other teams to get the production issue fixed. Jiwan is always the go-to person.
+  #       link: https://www.linkedin.com/in/shyam-kumar-k/
 
-      - title: Pageviews and Comments
-        icon: comment-dots
-        details: Pageview statistics and comment support with 4 comment service
-        link: https://theme-hope.vuejs.press/guide/feature/comment.html
+  #     - title: Erkan Ateşli
+  #       icon: https://media.licdn.com/dms/image/v2/C4E03AQFg4Oh_B9JEeQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1621625662967?e=1738195200&v=beta&t=Pe3O7c2KVXVkPPfb7cs06mLOgmvBHxUufz1hWnUDVCI
+  #       details: In our connection with Jiwan at ABN AMRO, I noticed that he has a lot of knowledge in his field of expertise. He can transfer his knowledge easily to others. With his strong analytics skills, he can handle complex questions as usual. Jiwan is a brave colleague I’ve met, and we had a lot of fun during the India visit and especially at the party
+  #       link: https://www.linkedin.com/in/erkanatesli
 
-      - title: Article Information
-        icon: circle-info
-        details: Add author, writing date, reading time, word count and other information to your article
-        link: https://theme-hope.vuejs.press/guide/feature/page-info.html
-
-      - title: Article Encryption
-        icon: lock
-        details: Encrypt you articles based on page links, so that only the one you want could see them
-        link: https://theme-hope.vuejs.press/guide/feature/encrypt.html
-
-      - title: Search
-        icon: search
-        details: Support docsearch and client search
-        link: https://theme-hope.vuejs.press/guide/feature/search.html
-
-      - title: Code Block
-        icon: code
-        details: Customize code block themes, line number, highlight lines, copy button, etc.
-        link: https://theme-hope.vuejs.press/guide/feature/code-block.html
-
-      - title: Image Preview
-        icon: image
-        details: Support viewing, zooming, sharing your page images like a gallery
-        link: https://theme-hope.vuejs.press/guide/feature/photo-swipe.html
-
-  - header: Blogging
-    description: Create personal blog with theme
+  - header: Your Journey with Me
+    description: How It Works?
     image: /assets/image/blog.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
-      - title: Blog features
-        icon: blog
-        details: Listing your articles with their dates, tags and categories
-        link: https://theme-hope.vuejs.press/guide/blog/intro.html
-
-      - title: Blog homepage
-        icon: blog
-        details: New blog homepage
-        link: https://theme-hope.vuejs.press/guide/blog/home.html
-
-      - title: Blogger info
-        icon: circle-info
-        details: Customize avatar, name, slogan, introduction and social links
-        link: https://theme-hope.vuejs.press/guide/blog/blogger.html
+      - title: Consultation
+        icon: pi pi-book
+        details: Understanding your project requirements
+        link: ./journey/
 
       - title: Timeline
-        icon: clock
-        details: Read through blog posts in a timeline
-        link: https://theme-hope.vuejs.press/guide/blog/timeline.html
+        icon: pi pi-clock
+        details: Understanding your time to market
+        link: ./journey/
 
-  - header: Advanced
-    description: Advanced features to improve site SEO and user experience
+      - title: Development
+        icon: pi pi-cog
+        details: Agile process to deliver quality
+        link: ./journey/
+
+      - title: Delivery & Support
+        icon: pi pi-cloud-upload
+        details: On-time deployment and post-launch maintenance
+        link: ./journey/
+
+
+
+  - header: Insights from a Developer's Desk
+    description: Tips, Trends, and Tutorials on Tech Development
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
-      - title: SEO Enhancement
-        icon: dumbbell
-        details: Optimize pages for search engines
-        link: https://theme-hope.vuejs.press/guide/advanced/seo.html
+      - title: How to Choose the Right Tech Stack
+        icon: pi pi-hashtag
+        details: Selecting the right technology stack can make or break your project. Learn how to evaluate frameworks, databases, and tools based on scalability, budget, and your specific requirements. This guide simplifies the decision-making process for developers and businesses alike.
 
-      - title: Sitemap
-        icon: sitemap
-        details: Generate a Sitemap for your site
-        link: https://theme-hope.vuejs.press/guide/advanced/sitemap.html
+      - title: Common Coding Mistakes and Fixes
+        icon: pi pi-flag-fill
+        details: Debugging can be a developer’s best teacher! This post highlights the most frequent coding errors across languages, from logic flaws to syntax issues, and offers practical solutions to fix and prevent them. Ideal for coders looking to sharpen their skills.
 
-      - title: Feed
-        icon: rss
-        details: Generate feed to allow users to subscribe it
-        link: https://theme-hope.vuejs.press/guide/advanced/feed.html
+      - title: The Future of Mobile Development
+        icon: pi pi-mobile
+        details: Mobile app development is evolving rapidly. Explore emerging trends like AI integration, cross-platform frameworks, and 5G optimization that are reshaping the industry. Stay ahead of the curve with insights into what’s next for mobile technology.
 
-      - title: PWA
-        icon: mobile-screen
-        details: Make your site more like an APP
-        link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
 
 copyright: false
 footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
 ---
 
-This is an example of a project homepage. You can place your main content here.
 
-To use this layout, you need to set `home: true` in the page front matter.
+<div class="my-8">
+  <div class="text-center">
+    <div class="text-6xl font-bold">What Customers Are Saying</div>
+    <div class="my-4 text-md">I treat every client as a strategic partner. Here’s what they have to say about working with Jiwan Ghosal.</div>
+  </div>
+  <div class="my-4 text-center text-md overflow-x-scroll ">
+    <div class="flex flex-row align-items-center">
+      <div class="md:col-6 col-12 surface-card shadow-1 border-round-md p-2 m-2 text-900" v-for="(testimonial, index) in testimonials" :key="index">
+        <div class="font-italic mb-8">
+          <div><span class="font-bold text-7xl">"</span> {{ testimonial.message }}</div>
+        </div>
+        <div class="flex align-items-center">
+          <img :src="testimonial.avatar" alt="Avatar" class="border-circle" width="50px" />
+          <a :href="testimonial.link" target="_blank">
+            <div class="flex flex-column align-items-start ml-2">
+              <div>{{ testimonial.name }}</div>
+              <div>{{ testimonial.designation }}</div>
+              <div>
+                <img :alt="testimonial.name" src="https://primefaces.org/cdn/primevue/images/flag/flag_placeholder.png" :class="`flag flag-${testimonial.code.toLowerCase()} mr-2`" style="width: 18px" />
+                {{ testimonial.location }}
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
+
+<div class="pt-8 surface-100 border-round-md text-900">
+  <div class="text-center">
+    <div class="text-6xl font-bold">Contact Me</div>
+    <div class="my-4 text-md">Let's work together!</div>
+  </div>
+  <div class="my-4 text-center text-md">I'm always eager to take on new challenges and collaborate on exciting projects. If you’re looking for a dedicated full-stack developer, feel free to reach out.
+  </div>
+  <a href="mailto:jiwan.cse@gmail.com" size="large" color="deeppink" class="flex justify-content-center text-center no-underline"> 
+    <Button label="Send email" icon="pi pi-envelope" severity="info" />
+  </a>
+  <div class="flex flex-row justify-content-end flex-wrap gap-4 p-3 mx-6">
+    <a
+      v-for="(socialElement, socialIndex) in social"
+      :key="socialIndex"
+      :href="socialElement.url"
+      target="_blank"
+      class="flex flex-row text-600 gap-2"
+      >
+      <i :class="socialElement.icon" style="font-size: 1rem"></i>
+      </a>
+  </div>
+</div>
+
+<script setup lang="ts">
+  const social= [
+    { label: 'linkedin', icon: 'pi pi-linkedin', url: 'https://www.linkedin.com/in/jiwanghosal/' },
+    { label: 'stackoverflow', icon: 'pi pi-chart-bar', url: 'https://stackoverflow.com/users/10376224/stchr?tab=profile' },
+    { label: 'Facebook', icon: 'pi pi-facebook', url: 'https://www.facebook.com/profile.php?id=100004925264462' },
+    { label: 'Instagram', icon: 'pi pi-instagram', url: 'https://www.instagram.com/jiwan_ghosal/' },
+    { label: 'youtube', icon: 'pi pi-youtube', url: 'https://www.youtube.com/@stackseekers' },
+  ]
+  const testimonials = [
+    {
+      name: 'Harris Malik',
+      designation: 'Senior Product Manager at 8x8',
+      message: 'Jiwan is one of the most valuable people I have ever met. He is smart, professional, and never fails to surprise us with creative solutions to difficult problems. Jiwan\'s personality and skills would be a great asset to any company. Highly recommended.',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQG8ooyo97JCoA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1682841547783?e=1738195200&v=beta&t=JARoSOLbmEvkdoSPUN0KudV6as1XSLEzxngLUDb9S6c',
+      link: 'https://www.linkedin.com/in/harrismalik04/',
+      location: 'Malaysia',
+      code: 'my'
+    },
+    {
+      name: 'Jurgen Sweere',
+      designation: 'Front End Expert at ABN Amro',
+      message: 'Jiwan never stopped amazing me. He brings a lot of front-end knowledge to the table and is able to quickly learn anything new. Jiwan is a great colleague to have!',
+      avatar: 'https://media.licdn.com/dms/image/v2/C5603AQGLWlLKfqFZgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516235161685?e=1738195200&v=beta&t=UF337AJukgtr4CHB2h-M-Azrt31Y24z3Q2lRBTiIk_c',
+      link: 'https://www.linkedin.com/in/jurgensweere',
+      location: 'The Netherlands',
+      code: 'nl'
+    },
+    {
+      name: 'Shyam Kumar',
+      designation: 'Senior Product Manager at Angel One',
+      message: 'I had the pleasure of working with Jiwan for around 2 years. I always found him to be a very dependable and hardworking colleague. Many times he went above and beyond to meet the product requirements; it might be either working overtime to release the project on time or working with other teams to get the production issue fixed. He was always the go-to person on the team. I wish him all the best in his future endeavors, and I can fully vouch that he will give his 100% every time.',
+      avatar: 'https://media.licdn.com/dms/image/v2/D5603AQHZpSlK7j89uA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1698672442801?e=1738195200&v=beta&t=lXm4yDQlyLnGzUFtfzqjDGEgBzttasSc03uUb5s0ZVc',
+      link: 'https://www.linkedin.com/in/shyam-kumar-k/',
+      location: 'India',
+      code: 'in'
+    },
+    {
+      name: 'Erkan Ateşli',
+      designation: 'Chapter Lead at ABN AMRO Bank N.V.',
+      message: 'In our connection with Jiwan at ABN AMRO, I noticed that he has a lot of knowledge in his field of expertise. He can transfer his knowledge easily to others. With his strong analytics skills, he can handle complex questions as usual. Jiwan is a brave colleague I’ve met, and we had a lot of fun during the India visit and especially at the party. ',
+      avatar: 'https://media.licdn.com/dms/image/v2/C4E03AQFg4Oh_B9JEeQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1621625662967?e=1738195200&v=beta&t=Pe3O7c2KVXVkPPfb7cs06mLOgmvBHxUufz1hWnUDVCI',
+      link: 'https://www.linkedin.com/in/erkanatesli',
+      location: 'The Netherlands',
+      code: 'nl'
+    }
+  ];
+</script>
