@@ -78,6 +78,7 @@ npm run docs:dev
 Developer Portfolio Website
 
 <ul>
+<li>Deploy to Github pages</li>
 <li>Navbar</li>
 <li>Dropdown Menu</li>
 <li>Collapsible Sidebar</li>
