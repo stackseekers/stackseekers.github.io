@@ -7,20 +7,14 @@ name: Jiwan ghosal
 avatar: https://heartstchr.github.io/img/jiwan.png
 
 titles:
-  - Developer
-  - Consultant
+  - Frontend Developer
+  - Web Consultant
   - Stack seekers
-
-footer: false
 ---
-
-## About Me
 
 <div class="my-8">
   <div class="my-4 text-md"> Jiwan Ghosal is a multifaceted freelance professional with a diverse skill set and a passion for continuous exploration and creativity. With extensive experience in full-stack development, Jiwan excels in both backend and frontend technologies, making significant contributions to various projects within the tech industry. His expertise spans all stages of agile software development, from planning and implementation to testing, monitoring, and delivery. Additionally, Jiwan holds a Google certification in Search Engine Marketing (SEM), showcasing his proficiency in enhancing online visibility and driving targeted traffic.</div>
 </div>
-
-##
 
 <div class="my-8">
   <div class="text-center">
@@ -28,8 +22,6 @@ footer: false
   </div>
   <div class="my-4 text-center text-md"> Jiwan Ghosal is a hard-core traveler, YouTuber, graphic artist, logo designer, web developer, and UI/UX designer.</div>
 </div>
-
-##
 
 <div class="my-8">
   <div class="text-center">

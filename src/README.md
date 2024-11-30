@@ -175,9 +175,25 @@ highlights:
 
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+footer: Copyright © 2024
 ---
 
+<div class="my-4">
+  <div class="my-4 font-bold text-5xl text-center">Commitment</div>
+  <div class="grid mt-4">
+    <div class="md:col col-12 text-center" v-for="feature in features" :key="feature.title">
+      <i :class="feature.icon" class="m-auto text-400 pl-3" style="font-size: 5rem"></i>
+      <div class="mt-4 font-bold text-base">{{ feature.title }}</div>
+      <div class="mt-2 text-sm">
+        {{ feature.description }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-md text-2xl mt-8">Full-stack developer with extensive experience in Javascript, the NodeJS ecosystem, and the cloud.</div>
+<div class="my-4">
+With a demonstrated history of success in the industry, I bring a comprehensive skill set that covers all phases of software development, including planning, implementation, automated testing, monitoring, and continuous integration and delivery.
+</div>
 
 <div class="my-8">
   <div class="text-center">
@@ -278,4 +294,26 @@ footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePr
       code: 'nl'
     }
   ];
+  const features = [
+    {
+      icon: 'pi pi-tag',
+      title: 'No minimum order',
+      description: 'Try our service without any hassle.'
+    },
+    {
+      icon: 'pi pi-bolt',
+      title: 'Fast Delivery',
+      description: 'I have got you covered.'
+    },
+    {
+      icon: 'pi pi-calendar-clock',
+      title: 'Support',
+      description: 'I am here to help!'
+    },
+    {
+      icon: 'pi pi-eye',
+      title: 'Free Demo',
+      description: 'Free demo biweekly to update progress.'
+    }
+  ]
 </script>

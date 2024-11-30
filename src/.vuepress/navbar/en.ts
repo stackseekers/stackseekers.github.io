@@ -3,6 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export const enNavbar = navbar([
   "/",
   "/portfolio",
+  {
+    text: "Videos",
+    icon: "pi pi-youtube",
+    link: "https://www.youtube.com/@stackseekers",
+  },
   // "/demo/",
   // {
   //   text: "Guide",
