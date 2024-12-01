@@ -2,9 +2,8 @@
 
 ## Prerequisites
 
-- [Node.js 10+](https://nodejs.org/en/)
-- [Pnpm](https://pnpm.io/installation) 
-- [Yarn Classic](https://classic.yarnpkg.com/en/) 
+- [Node.js 18+](https://nodejs.org/en/)
+- [Pnpm](https://pnpm.io/installation)
 
 
 ## Quick Start

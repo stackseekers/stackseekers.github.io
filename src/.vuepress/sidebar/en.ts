@@ -7,7 +7,7 @@ export const enSidebar = sidebar({
     {
       text: "Process",
       icon: "pi pi-spinner-dotted",
-      prefix: "journey/",
+      prefix: "process/",
       children: "structure",
     }
   ],
