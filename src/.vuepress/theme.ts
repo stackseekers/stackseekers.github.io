@@ -24,7 +24,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Default footer",
+      footer: "Copyright © 2024",
 
       displayFooter: true,
 
@@ -66,10 +66,10 @@ export default hopeTheme({
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "stackseekers/stackseekers.github.io",
+      repoId: "R_kgDONQ-Gow",
+      category: "General",
+      categoryId: "DIC_kwDONQ-Go84Ckwad",
     },
 
     components: {

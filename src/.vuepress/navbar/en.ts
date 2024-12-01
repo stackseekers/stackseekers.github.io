@@ -4,25 +4,38 @@ export const enNavbar = navbar([
   "/",
   "/portfolio",
   // "/demo/",
-  // {
-  //   text: "Guide",
-  //   icon: "lightbulb",
-  //   prefix: "/guide/",
-  //   children: [
-  //     {
-  //       text: "Bar",
-  //       icon: "lightbulb",
-  //       prefix: "bar/",
-  //       children: ["baz", { text: "...", icon: "ellipsis", link: "#" }],
-  //     },
-  //     {
-  //       text: "Foo",
-  //       icon: "lightbulb",
-  //       prefix: "foo/",
-  //       children: ["ray", { text: "...", icon: "ellipsis", link: "#" }],
-  //     },
-  //   ],
-  // },
+  {
+    text: "Process",
+    icon: "pi pi-spinner-dotted",
+    prefix: "/process/",
+    children: [
+      {
+        text: "Consultation",
+        icon: "pi pi-book",
+        link: "consultation.html",
+      },
+      {
+        text: "Timeline",
+        icon: "pi pi-clock",
+        link: "timeline.html",
+      },
+      {
+        text: "Development",
+        icon: "pi pi-cog",
+        link: "development.html",
+      },
+      {
+        text: "Delivery & Support",
+        icon: "pi pi-cloud-upload",
+        link: "delivery-Support.html",
+      },
+    ],
+  },
+  {
+    text: "Videos",
+    icon: "pi pi-youtube",
+    link: "https://www.youtube.com/@stackseekers",
+  },
   // {
   //   text: "V2 Docs",
   //   icon: "book",
