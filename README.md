@@ -78,7 +78,7 @@ npm run docs:dev
 Developer Portfolio Website
 
 <ul>
-<li>Deploy to Github pages</li>
+<li>Deploy to GitHub pages</li>
 <li>Navbar</li>
 <li>Dropdown Menu</li>
 <li>Collapsible Sidebar</li>
@@ -90,7 +90,7 @@ Developer Portfolio Website
 <li>Dark mode</li>
 <li>Internationalization</li>
 <li>Primevue Setup</li>
-<li>Custome Css</li>
+<li>Custom CSS</li>
 <li>Back to top of the page</li>
 <li>Code Structure
 

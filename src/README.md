@@ -136,23 +136,31 @@ highlights:
       - title: Consultation
         icon: pi pi-book
         details: Understanding your project requirements
-        link: ./journey/
+        link: ./process/consultation.html
 
       - title: Timeline
         icon: pi pi-clock
         details: Understanding your time to market
-        link: ./journey/
+        link: ./process/timeline.html
 
       - title: Development
         icon: pi pi-cog
         details: Agile process to deliver quality
-        link: ./journey/
+        link: ./process/development.html
 
       - title: Delivery & Support
         icon: pi pi-cloud-upload
         details: On-time deployment and post-launch maintenance
-        link: ./journey/
+        link: ./process/delivery-support.html
 
+  - header: 
+    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+    features:
+      - title: Start Your Journey
+        icon: pi pi-calendar-clock
+        link: ./meeting/
+        type: Secondary
 
 
   - header: Insights from a Developer's Desk
