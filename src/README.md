@@ -17,7 +17,7 @@ actions:
 
   - text: Schedule Meeting
     icon: pi pi-calendar-clock
-    link: ./meeting/
+    link: https://cal.com/stackseekers
     type: Secondary
 
 highlights:
@@ -38,7 +38,7 @@ highlights:
     features:
       - title: Discuss Your Project
         icon: pi pi-calendar-clock
-        link: ./meeting/
+        link: https://cal.com/stackseekers
         type: Secondary
 
   # - header: Add things you want in markdown
@@ -73,7 +73,7 @@ highlights:
     highlights:
       - title: View All Projects
         details: See my work
-        link: ./projects/
+        link: https://heartstchr.github.io/projects/
 
   # - header: Improved layouts
   #   description: An awesome responsive layout
@@ -159,7 +159,7 @@ highlights:
     features:
       - title: Start Your Journey
         icon: pi pi-calendar-clock
-        link: ./meeting/
+        link: https://cal.com/stackseekers
         type: Secondary
 
 

@@ -4,9 +4,34 @@
 
 - [Node.js 18+](https://nodejs.org/en/)
 - [Pnpm](https://pnpm.io/installation)
+- [Giscus](https://giscus.app/)
+- [Github pages](https://docs.github.com/en/pages/quickstart)
 
 
-## Quick Start
+## Clone and modify Your Own
+
+```
+git clone https://github.com/stackseekers/stackseekers.github.io.git
+```
+
+> using pnpm
+
+```bash
+cd stackseekers.github.io
+pnpm install
+pnpm docs:dev
+```
+
+Don't Forget to create your own github repo.
+
+## UI Framework used
+
+- [Primevue](https://primevue.org/vite)
+- [Primeflex](https://primeflex.org/installation)
+- [unplugin-vue-components](https://www.npmjs.com/package/unplugin-vue-components)
+- [Vuepress](https://v2.vuepress.vuejs.org/)
+
+## Quick Start to learn from scratch
 
 To use it, open up your terminal in the desired directory and run the following command:
 
@@ -17,21 +42,6 @@ pnpm
 ```bash
 pnpm create vuepress-theme-hope stackseekers
 ```
-OR
-
-yarn
-
-```bash
-yarn create vuepress-theme-hope stackseekers
-```
-OR
-
-npm
-
-```bash
-npm init vuepress-theme-hope@latest stackseekers
-```
-
 
 The command will interactively ask for details to configure your VuePress site’s metadata such as:
 
@@ -43,8 +53,6 @@ Once this done, a scaffolded documentation site will be created in the `stacksee
 
 To see it in action, navigate into newly scaffolded directory, install the dependencies and start the local server:
 
-
-
 > pnpm
 
 ```bash
@@ -52,32 +60,13 @@ cd stackseekers
 pnpm install
 pnpm docs:dev
 ```
-OR
 
-> yarn
+## Modify bellow features accornding to your need
 
-```bash
-cd stackseekers
-yarn install
-yarn docs:dev
-```
-
-OR
-
-> npm
-
-```bash
-cd stackseekers
-npm install
-npm run docs:dev
-```
-
-## Modify to make your own
-
-Developer Portfolio Website
+Free Developer Portfolio Website
 
 <ul>
-<li>Deploy to GitHub pages</li>
+
 <li>Navbar</li>
 <li>Dropdown Menu</li>
 <li>Collapsible Sidebar</li>
@@ -91,6 +80,7 @@ Developer Portfolio Website
 <li>Primevue Setup</li>
 <li>Custom CSS</li>
 <li>Back to top of the page</li>
+<li>Deploy to GitHub pages</li>
 <li>Code Structure
 
 ```
@@ -139,7 +129,8 @@ Developer Portfolio Website
 </li>
 </ul>
 
-Website Content Structure
+
+## Website Content Ideas
 
 1. Hero Section (First Impression)
 
