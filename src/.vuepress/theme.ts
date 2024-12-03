@@ -2,6 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 
 import { enNavbar } from "./navbar/index.js";
 import { enSidebar } from "./sidebar/index.js";
+import { seoPlugin } from '@vuepress/plugin-seo'
+
 
 export default hopeTheme({
   hostname: "https://stackseekers.github.io/",
@@ -62,6 +64,7 @@ export default hopeTheme({
   },
 
   plugins: {
+    seo: true,
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     comment: {

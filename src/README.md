@@ -259,7 +259,7 @@ With a demonstrated history of success in the industry, I bring a comprehensive 
   const social= [
     { label: 'linkedin', icon: 'pi pi-linkedin', url: 'https://www.linkedin.com/in/jiwanghosal/' },
     { label: 'stackoverflow', icon: 'pi pi-chart-bar', url: 'https://stackoverflow.com/users/10376224/stchr?tab=profile' },
-    { label: 'Facebook', icon: 'pi pi-facebook', url: 'https://www.facebook.com/profile.php?id=100004925264462' },
+    { label: 'Facebook', icon: 'pi pi-facebook', url: 'https://www.facebook.com/profile.php?id=61568807672853' },
     { label: 'Instagram', icon: 'pi pi-instagram', url: 'https://www.instagram.com/jiwan_ghosal/' },
     { label: 'youtube', icon: 'pi pi-youtube', url: 'https://www.youtube.com/@stackseekers' },
   ]
