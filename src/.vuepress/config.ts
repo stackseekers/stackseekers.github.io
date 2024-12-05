@@ -5,8 +5,9 @@ import { PrimeVueResolver } from 'unplugin-vue-components/resolvers';
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  title: 'Stack Seekers',
-  description: 'Experienced full-stack developer specializing in scalable web, mobile, and software solutions. Let’s bring your vision to life.',
+  title: "Stack Seekers",
+  description:
+    "Experienced full-stack developer specializing in scalable web, mobile, and software solutions. Let’s bring your vision to life.",
   bundler: viteBundler({
     viteOptions: {
       plugins: [
@@ -15,26 +16,29 @@ export default defineUserConfig({
         }),
       ],
       ssr: {
-          noExternal: [
-              'primevue',
-          ],
+        noExternal: ["primevue"],
       },
     },
     vuePluginOptions: {},
   }),
   base: "/",
   head: [
-    ['script', {
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-2H3QT4CP1Y', 
+    [
+      "script",
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-TYDDHHS1MK",
         async: true,
-    }],
-    ['script', {}, `
-      window.dataLayer = window.dataLayer || [];
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-2H3QT4CP1Y');
-  `]
+      gtag('config', 'G-TYDDHHS1MK');`,
+    ],
   ],
   locales: {
     "/": {
